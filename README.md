@@ -1,2 +1,1 @@
-# dotfiles
-My Hyprland dotfiles
+# Hyprland Dotfiles 
