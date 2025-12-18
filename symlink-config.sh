@@ -1,4 +1,6 @@
-ln -sf ./nvim/ ~/.config/nvim/ 
-ln -sf ./hypr/ ~/.config/hypr/ 
-ln -sf ./swaync/ ~/.config/swaync/ 
-ln -sf ./waybar/ ~/.config/waybar/ 
+#!/usr/bin/env bash
+
+ln -s ~/code/dotfiles/nvim ~/.config/nvim
+ln -s ~/code/dotfiles/hypr ~/.config/hypr 
+ln -s ~/code/dotfiles/swaync ~/.config/swaync 
+ln -s ~/code/dotfiles/waybar ~/.config/waybar 
