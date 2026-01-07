@@ -46,6 +46,7 @@ require("flutter-tools").setup {}
 
 -- VIM
 vim.keymap.set('n', "gd", vim.lsp.buf.definition)
+vim.keymap.set('n', "<F2>", vim.lsp.buf.rename)
 vim.keymap.set("n", "K", vim.lsp.buf.hover, { desc = "Show hover info" })
 vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = "Show diagnostic" })
 
