@@ -30,8 +30,8 @@ vim.cmd.colorscheme("sonokai")
 -- ====================================
 --
 require("mason-lspconfig").setup {
-    ensure_installed = { "lua_ls", "ts_ls", "ruff", "zls", "cssls", "clangd" },
-    ensure_enabled = { "lua_ls", "ts_ls", "ruff", "zls", "cssls", "clangd" },
+    ensure_installed = { "lua_ls", "ts_ls", "ruff", "zls", "cssls", "clangd", "csharp_ls" },
+    ensure_enabled = { "lua_ls", "ts_ls", "ruff", "zls", "cssls", "clangd", "csharp_ls" },
 }
 
 local conform = require("conform")

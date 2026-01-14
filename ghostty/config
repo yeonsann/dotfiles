@@ -1,0 +1,7 @@
+background = 000000
+font-size = 18
+
+# Tab bar config
+gtk-tabs-location = bottom
+gtk-wide-tabs = false
+
